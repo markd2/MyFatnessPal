@@ -15,6 +15,7 @@ oopack
 # Xcode droppings
 *.xcuserdatad
 DerivedData
+*.xcworkspace
 
 # Excel droppings
 ~$*
