@@ -1,0 +1,30 @@
+# temp file name
+oopack
+
+# Finder cache files
+.DS_Store
+
+# emacs droppings
+*~
+\#*
+.\#*
+
+# Debug symbol directories
+*.dSYM
+
+# Xcode droppings
+*.xcuserdatad
+DerivedData
+*.xcworkspace
+
+# Excel droppings
+~$*
+
+# Build directories.
+build/
+
+# Scrivner
+binder.autosave
+
+# Random compiled utilities lying around
+check
