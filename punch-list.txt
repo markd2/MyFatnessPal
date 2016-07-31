@@ -4,7 +4,7 @@ My Fatness Pal
 another fine seat-of-the-pants production
 
 [x] Weight struct
-[ ] Need date support too.
+[x] Need date support too.
 [ ] show in table view
 [ ] add / delete
 [ ] inhale / exhale
