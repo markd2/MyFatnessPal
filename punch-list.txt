@@ -1,0 +1,11 @@
+My Fatness Pal
+--------------
+
+another fine seat-of-the-pants production
+
+[ ] Weight struct
+[ ] show in table view
+[ ] add / delete
+[ ] inhale / exhale
+[ ] draw graph
+[ ] add trend
