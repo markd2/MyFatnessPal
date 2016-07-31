@@ -10,6 +10,7 @@
 		7DADECFB1D4E44AB0015639E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADECFA1D4E44AB0015639E /* AppDelegate.swift */; };
 		7DADECFD1D4E44AB0015639E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DADECFC1D4E44AB0015639E /* Assets.xcassets */; };
 		7DADED001D4E44AB0015639E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DADECFE1D4E44AB0015639E /* MainMenu.xib */; };
+		7DADED081D4E46700015639E /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADED071D4E46700015639E /* Weight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		7DADECFC1D4E44AB0015639E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DADECFF1D4E44AB0015639E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7DADED011D4E44AB0015639E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DADED071D4E46700015639E /* Weight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				7DADECFC1D4E44AB0015639E /* Assets.xcassets */,
 				7DADECFE1D4E44AB0015639E /* MainMenu.xib */,
 				7DADED011D4E44AB0015639E /* Info.plist */,
+				7DADED071D4E46700015639E /* Weight.swift */,
 			);
 			path = "My Fatness Pal";
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DADECFB1D4E44AB0015639E /* AppDelegate.swift in Sources */,
+				7DADED081D4E46700015639E /* Weight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

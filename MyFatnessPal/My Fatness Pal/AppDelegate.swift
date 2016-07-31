@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  My Fatness Pal
-//
-//  Created by Mark Dalrymple on 7/31/16.
-//  Copyright © 2016 Borkware. All rights reserved.
-//
-
 import Cocoa
 
 @NSApplicationMain
@@ -15,11 +7,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        let weights = Weight.weightsFromArray([50.5, 60.7, 100.3, 880.0])
+        print("\(weights)")
+
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
     }
 
 
