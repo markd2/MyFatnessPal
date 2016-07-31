@@ -5,7 +5,7 @@ another fine seat-of-the-pants production
 
 [x] Weight struct
 [x] Need date support too.
-[ ] show in table view
+[o] show in table view
 [ ] add / delete
 [ ] inhale / exhale
 [ ] draw graph
