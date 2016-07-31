@@ -7,7 +7,7 @@ struct Reading {
     // Testing convenience
     static func readingsFrom(floatWeights: [Double],
                              dateTuples: [(year: Int, month: Int, day: Int)]) -> [Reading] {
-//        assert(floatWeights.count == dateTuples.count)
+        assert(floatWeights.count == dateTuples.count)
         
         let weights = Weight.weightsFromArray(floatWeights)
         
