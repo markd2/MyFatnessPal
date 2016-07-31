@@ -4,17 +4,14 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
-
-
+    
+    var weights = Weight.weightsFromArray([259.1, 260, 258.2, 259.7, 258.3])
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        let weights = Weight.weightsFromArray([50.5, 60.7, 100.3, 880.0])
-        print("\(weights)")
-
+        print(weights)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
     }
-
-
 }
 
